@@ -42,7 +42,7 @@ function DemoScene({ isPlaying }: { isPlaying: boolean }) {
     const canvas = document.createElement("canvas");
     canvas.width = 1024;
     canvas.height = 646;
-    drawCardBack(canvas, "#0a0a0a", "metal", "back", "matte");
+    drawCardBack(canvas, "#0a0a0a", "metal", "matte", "Alex Sterling");
     const tex = new THREE.CanvasTexture(canvas);
     tex.anisotropy = 16;
     return tex;

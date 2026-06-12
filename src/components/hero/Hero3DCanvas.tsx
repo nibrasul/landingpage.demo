@@ -39,8 +39,8 @@ function CardMesh() {
       canvas,
       "#0a0a0a",
       "pvc",
-      "back",
-      "matte"
+      "matte",
+      "Alex Sterling"
     );
     const texture = new THREE.CanvasTexture(canvas);
     texture.anisotropy = 16;

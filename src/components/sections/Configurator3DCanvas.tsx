@@ -58,7 +58,6 @@ function ConfigCardMesh({ config }: { config: ConfiguratorState }) {
         config.color, 
         config.material, 
         config.finish, 
-        config.qrPosition, 
         config.name
       );
       const bTex = new THREE.CanvasTexture(backCanvas);
